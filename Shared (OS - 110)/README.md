@@ -1,6 +1,6 @@
 # Shared (OS - 110)
 
-The challenge file can be download (here)[Shared_04dca129c011213979aded2e7bef71d3.zip].
+The challenge file can be download [here](Shared_04dca129c011213979aded2e7bef71d3.zip).
   
 After extracting the ZIP file, there are 2 files, `main.exe` and `libflag.so`.  
 ```
