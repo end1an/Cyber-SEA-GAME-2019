@@ -11,9 +11,9 @@ main.exe:   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically lin
 By running the `main.exe`, the error was occured.  
 Then use command `strace ./main.exe` to see what library called.  
 The result showed that a lot of `libflag.so` files from different multiple directories were called but they were missing.  
-!(strace)[strace.png]
+![strace](strace.png)
   
 So I copied the `libflag.so` to all required directory, and run `main.exe` again.  
-!(flag)[flag.png]
+![flag](flag.png)
 
 
