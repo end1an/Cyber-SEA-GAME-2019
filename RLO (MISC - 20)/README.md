@@ -35,8 +35,8 @@ C:\Users\admin\Desktop\RLO_7904ba4cdb3b1cb4c6a9f767c9ef065c>dir /O:D
 ```
 Assume the the original list of chracters  **ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_{}**  
 The flag is the missing character before "?_" of each file which ordered by time.  
-For example, The first character of the flag is the character after "e" (ABCDEFGHIJKLMNOPQRSTUVWXYZabcde**?_**{}zyxwvutsrqponmlkjihgf) which is "f".  
-The second character of the flag is the character after "k" (ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk**?_**{}zyxwvutsrqponml) which is "l".  
+For example, The first character of the flag is the character after "e" (ABCDEFGHIJKLMNOPQRSTUVWXYZabcde****?_****{}zyxwvutsrqponmlkjihgf) which is "f".  
+The second character of the flag is the character after "k" (ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk****?_****{}zyxwvutsrqponml) which is "l".  
 
 The flag is flag{RLO_Disrupt_U}
 
