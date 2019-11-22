@@ -9,7 +9,7 @@ We got the wireless packets captured file.
 Try to convert .pcapng to .pcap file and decrypt the packets.  
 ![aircrack](2-aircrack.png)  
   
-There is only 1 ESSID in the PCAP file, that is the target!
+There is only 1 ESSID in the PCAP file, that is the target!  
 And the password of that access point is `pass1234`.  
 ![password](3-password.png)  
   
@@ -17,6 +17,8 @@ Next, decrypt the PCAP file with `airdecap-ng`.
 ![decap](4-decap.png)  
   
 We got the new decrypted file, `WLANcapture-dec.pcap`.  
+Open with Wireshark.  
 ![flag](5-flag.png)
 
+The destination server's IP is 192.168.11.202.  
 The flag is flag{192.168.11.202}
